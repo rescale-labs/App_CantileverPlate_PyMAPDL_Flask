@@ -1,0 +1,6 @@
+vtk==9.1.0
+pyvista==0.33.1
+ansys-mapdl-core
+requests
+flask-restful
+gunicorn

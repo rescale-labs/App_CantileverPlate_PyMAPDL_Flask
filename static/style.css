@@ -9,24 +9,25 @@
     font: 300 14px Cambria;
 }
 
-
 .Title {
     grid-column: 1 / 11;
     text-align: center;
     background-color: #ffb41c;
- }
- .Reference {
+}
+
+.Reference {
     grid-column: 1 / 11;
     text-align: center;
- }
+}
 
- .Input-Header {
+.Input-Header {
     grid-area: 3 / 1 / 4 / 4;
     padding-top: 20px;
     background-color: #ffb41c;
     text-align: center;
- }
- .Input-Names {
+}
+
+.Input-Names {
     grid-area: 4 / 1 / 7 / 2;
     padding-top: 20px;
     background-color: #ffb41c;
@@ -45,23 +46,18 @@
     padding-top: 20px;
     background-color: #ffb41c;
     text-align: center;
- }
+}
 
 .Output-Names {
     grid-area: 4 / 5 / 5 / 7;
     background-color: #ffb41c;
     text-align: left;
     padding-left: 20px;
-
 }
 
 .Output-Values {
-    grid-area: 4 / 7 / 5 / 10 ;
+    grid-area: 4 / 7 / 5 / 10;
     background-color: #ffb41c
-}
-
-img {
-    /*border: 5px solid #555;*/
 }
 
 .Result-Image {
@@ -78,3 +74,18 @@ input[type=text] {
     color: white;
 }
 
+.ribbon {
+    position: fixed;
+    background: #08769b;
+    box-shadow: 0 0 0 999px #08769b;
+    clip-path: inset(0 -100%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    color: white;
+}
+
+.right {
+    inset: 0 0 auto auto;
+    transform-origin: 0 0;
+    transform: translate(29.3%) rotate(45deg);
+}
